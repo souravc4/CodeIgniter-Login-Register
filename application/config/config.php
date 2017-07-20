@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/mech-school';
+$config['base_url'] = 'http://mech-school.16mb.com';
 
 /*
 |--------------------------------------------------------------------------
