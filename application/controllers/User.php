@@ -43,7 +43,7 @@ class User extends CI_Controller {
 		// check if user has logged in or not
 		if(($_SESSION['logged_in']) != true){
 
-			redirect("login");
+			redirect("index.php/login");
 		}
 		
 		// set variables from the form

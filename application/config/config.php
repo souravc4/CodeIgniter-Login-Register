@@ -29,7 +29,7 @@ $config['base_url'] = 'http://mech-school.16mb.com';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------

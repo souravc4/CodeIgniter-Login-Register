@@ -6,8 +6,8 @@
 			<p>to</p>
 			<h2 class="title">The School of Mechanics</h2>
 			<br>
-			<a href="<?= base_url('login') ?>" class="btn btn-success btn-lg">Login</a>
-			<a href="<?= base_url('register') ?>" class="btn btn-primary btn-lg">Register</a>
+			<a href="<?= base_url('index.php/login') ?>" class="btn btn-success btn-lg">Login</a>
+			<a href="<?= base_url('index.php/register') ?>" class="btn btn-primary btn-lg">Register</a>
 		</div>
 	</div>
 </div>

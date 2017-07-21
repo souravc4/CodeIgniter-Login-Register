@@ -35,16 +35,16 @@
 					</div>
 					<div class="collapse navbar-collapse navbar-left navbar-main-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="<?= base_url('posts') ?>">Posts</a></li>
+							<li><a href="<?= base_url('index.php/posts') ?>">Posts</a></li>
 						</ul>
 					</div>
 					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 						<ul class="nav navbar-nav">
 							<?php if (isset($_SESSION['username']) && $_SESSION['logged_in'] === true) : ?>
-								<li><a href="<?= base_url('logout') ?>">Logout</a></li>
+								<li><a href="<?= base_url('index.php/logout') ?>">Logout</a></li>
 							<?php else : ?>
-								<li><a href="<?= base_url('register') ?>">Register</a></li>
-								<li><a href="<?= base_url('login') ?>">Login</a></li>
+								<li><a href="<?= base_url('index.php/register') ?>">Register</a></li>
+								<li><a href="<?= base_url('index.php/login') ?>">Login</a></li>
 							<?php endif; ?>
 						</ul>
 					</div><!-- .navbar-collapse -->

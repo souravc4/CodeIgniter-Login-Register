@@ -5,7 +5,7 @@
 			<div class="page-header">
 				<h1>Thank you for registering your new account!</h1>
 			</div>
-			<a href="<?= base_url('login') ?>" class="btn btn-success btn-lg">Login</a>
+			<a href="<?= base_url('index.php/login') ?>" class="btn btn-success btn-lg">Login</a>
 			<br><br>
 		</div>
 	</div><!-- .row -->

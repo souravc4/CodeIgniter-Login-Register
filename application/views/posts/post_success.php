@@ -5,7 +5,7 @@
 			<div class="page-header">
 				<h1>Status Set!</h1>
 			</div>
-			<a href="<?= base_url('posts') ?>" class="btn btn-success">Back</a>
+			<a href="<?= base_url('index.php/posts') ?>" class="btn btn-success">Back</a>
 			<br><br>
 		</div>
 	</div><!-- .row -->
