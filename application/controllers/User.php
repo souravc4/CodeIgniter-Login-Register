@@ -63,7 +63,7 @@ class User extends CI_Controller {
 			$i=1;
 			$data->user_posts = array();
 			while(true):
-				if($this->user_model->get_post_by_userid($i))
+				if(!is_null($this->user_model->get_post_by_userid($i)))
 				{
 					$data->user_posts[] = $this->user_model->get_post_by_userid($i);
 					$i++;

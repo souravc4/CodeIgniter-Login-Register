@@ -63,7 +63,8 @@
 						</tbody>
 					</table>
 				</div>
-			</div>	
+			</div>
+				
 		<?php endif; ?>
 	</div><!-- .row -->
 </div><!-- .container -->

@@ -35,7 +35,7 @@
 					</div>
 					<div class="collapse navbar-collapse navbar-left navbar-main-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="<?= base_url('index.php/posts') ?>">Posts</a></li>
+							<li><a href="<?= base_url('posts') ?>">Posts</a></li>
 						</ul>
 					</div>
 					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
